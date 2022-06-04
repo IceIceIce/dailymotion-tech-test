@@ -11,6 +11,21 @@
 		F0477E55284B79C900E30C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0477E54284B79C900E30C30 /* Assets.xcassets */; };
 		F0477E58284B79C900E30C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0477E56284B79C900E30C30 /* LaunchScreen.storyboard */; };
 		F0477E63284B79C900E30C30 /* dailymotion_tech_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E62284B79C900E30C30 /* dailymotion_tech_testTests.swift */; };
+		F0477E7D284B7D4900E30C30 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E7C284B7D4900E30C30 /* NetworkError.swift */; };
+		F0477E7F284B7D7E00E30C30 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E7E284B7D7E00E30C30 /* NetworkProvider.swift */; };
+		F0477E81284B7DA400E30C30 /* URLSession+NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E80284B7DA400E30C30 /* URLSession+NetworkProvider.swift */; };
+		F0477E84284B7DFA00E30C30 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E83284B7DFA00E30C30 /* DataProvider.swift */; };
+		F0477E86284B7E2400E30C30 /* DataProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E85284B7E2400E30C30 /* DataProviderError.swift */; };
+		F0477E88284B7E5000E30C30 /* DefaultDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E87284B7E5000E30C30 /* DefaultDataProvider.swift */; };
+		F0477E8A284B7E7800E30C30 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E89284B7E7800E30C30 /* RequestBuilder.swift */; };
+		F0477E8D284B7EF400E30C30 /* DefaultErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E8C284B7EF400E30C30 /* DefaultErrorManager.swift */; };
+		F0477E8F284B7F1F00E30C30 /* DefaultErrorReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E8E284B7F1F00E30C30 /* DefaultErrorReporter.swift */; };
+		F0477E91284B7F3800E30C30 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E90284B7F3800E30C30 /* ErrorHandler.swift */; };
+		F0477E93284B7F5400E30C30 /* ErrorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E92284B7F5400E30C30 /* ErrorLevel.swift */; };
+		F0477E95284B7F6B00E30C30 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E94284B7F6B00E30C30 /* ErrorManager.swift */; };
+		F0477E97284B7F7C00E30C30 /* ErrorReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E96284B7F7C00E30C30 /* ErrorReporter.swift */; };
+		F0477E9B284B7FC900E30C30 /* DisplayableErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E9A284B7FC900E30C30 /* DisplayableErrorViewModel.swift */; };
+		F0477E9F284B803900E30C30 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E9E284B803900E30C30 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +54,21 @@
 		F0477E5E284B79C900E30C30 /* dailymotion-tech-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dailymotion-tech-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0477E62284B79C900E30C30 /* dailymotion_tech_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailymotion_tech_testTests.swift; sourceTree = "<group>"; };
 		F0477E68284B79C900E30C30 /* dailymotion-tech-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dailymotion-tech-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0477E7C284B7D4900E30C30 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F0477E7E284B7D7E00E30C30 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		F0477E80284B7DA400E30C30 /* URLSession+NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+NetworkProvider.swift"; sourceTree = "<group>"; };
+		F0477E83284B7DFA00E30C30 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		F0477E85284B7E2400E30C30 /* DataProviderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderError.swift; sourceTree = "<group>"; };
+		F0477E87284B7E5000E30C30 /* DefaultDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDataProvider.swift; sourceTree = "<group>"; };
+		F0477E89284B7E7800E30C30 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		F0477E8C284B7EF400E30C30 /* DefaultErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultErrorManager.swift; sourceTree = "<group>"; };
+		F0477E8E284B7F1F00E30C30 /* DefaultErrorReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultErrorReporter.swift; sourceTree = "<group>"; };
+		F0477E90284B7F3800E30C30 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		F0477E92284B7F5400E30C30 /* ErrorLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLevel.swift; sourceTree = "<group>"; };
+		F0477E94284B7F6B00E30C30 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		F0477E96284B7F7C00E30C30 /* ErrorReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorReporter.swift; sourceTree = "<group>"; };
+		F0477E9A284B7FC900E30C30 /* DisplayableErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableErrorViewModel.swift; sourceTree = "<group>"; };
+		F0477E9E284B803900E30C30 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +118,10 @@
 		F0477E4A284B79C800E30C30 /* dailymotion-tech-test */ = {
 			isa = PBXGroup;
 			children = (
+				F0477E98284B7FAF00E30C30 /* View Models */,
+				F0477E8B284B7ECA00E30C30 /* Error Handling */,
+				F0477E82284B7DE500E30C30 /* Data Provider */,
+				F0477E7B284B7D3500E30C30 /* Networking */,
 				F0477E4B284B79C800E30C30 /* AppDelegate.swift */,
 				F0477E54284B79C900E30C30 /* Assets.xcassets */,
 				F0477E56284B79C900E30C30 /* LaunchScreen.storyboard */,
@@ -102,6 +136,65 @@
 				F0477E62284B79C900E30C30 /* dailymotion_tech_testTests.swift */,
 			);
 			path = "dailymotion-tech-testTests";
+			sourceTree = "<group>";
+		};
+		F0477E7B284B7D3500E30C30 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E7C284B7D4900E30C30 /* NetworkError.swift */,
+				F0477E7E284B7D7E00E30C30 /* NetworkProvider.swift */,
+				F0477E80284B7DA400E30C30 /* URLSession+NetworkProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F0477E82284B7DE500E30C30 /* Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E9D284B7FF800E30C30 /* Models */,
+				F0477E9C284B7FED00E30C30 /* Provider */,
+			);
+			path = "Data Provider";
+			sourceTree = "<group>";
+		};
+		F0477E8B284B7ECA00E30C30 /* Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E8C284B7EF400E30C30 /* DefaultErrorManager.swift */,
+				F0477E8E284B7F1F00E30C30 /* DefaultErrorReporter.swift */,
+				F0477E90284B7F3800E30C30 /* ErrorHandler.swift */,
+				F0477E92284B7F5400E30C30 /* ErrorLevel.swift */,
+				F0477E94284B7F6B00E30C30 /* ErrorManager.swift */,
+				F0477E96284B7F7C00E30C30 /* ErrorReporter.swift */,
+			);
+			path = "Error Handling";
+			sourceTree = "<group>";
+		};
+		F0477E98284B7FAF00E30C30 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E9A284B7FC900E30C30 /* DisplayableErrorViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F0477E9C284B7FED00E30C30 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E83284B7DFA00E30C30 /* DataProvider.swift */,
+				F0477E85284B7E2400E30C30 /* DataProviderError.swift */,
+				F0477E87284B7E5000E30C30 /* DefaultDataProvider.swift */,
+				F0477E89284B7E7800E30C30 /* RequestBuilder.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		F0477E9D284B7FF800E30C30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E9E284B803900E30C30 /* Page.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +327,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0477E88284B7E5000E30C30 /* DefaultDataProvider.swift in Sources */,
+				F0477E8F284B7F1F00E30C30 /* DefaultErrorReporter.swift in Sources */,
+				F0477E9F284B803900E30C30 /* Page.swift in Sources */,
+				F0477E95284B7F6B00E30C30 /* ErrorManager.swift in Sources */,
+				F0477E81284B7DA400E30C30 /* URLSession+NetworkProvider.swift in Sources */,
+				F0477E9B284B7FC900E30C30 /* DisplayableErrorViewModel.swift in Sources */,
 				F0477E4C284B79C800E30C30 /* AppDelegate.swift in Sources */,
+				F0477E91284B7F3800E30C30 /* ErrorHandler.swift in Sources */,
+				F0477E84284B7DFA00E30C30 /* DataProvider.swift in Sources */,
+				F0477E7D284B7D4900E30C30 /* NetworkError.swift in Sources */,
+				F0477E8D284B7EF400E30C30 /* DefaultErrorManager.swift in Sources */,
+				F0477E7F284B7D7E00E30C30 /* NetworkProvider.swift in Sources */,
+				F0477E93284B7F5400E30C30 /* ErrorLevel.swift in Sources */,
+				F0477E97284B7F7C00E30C30 /* ErrorReporter.swift in Sources */,
+				F0477E86284B7E2400E30C30 /* DataProviderError.swift in Sources */,
+				F0477E8A284B7E7800E30C30 /* RequestBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
