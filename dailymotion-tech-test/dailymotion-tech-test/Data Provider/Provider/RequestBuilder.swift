@@ -21,8 +21,8 @@ struct RequestBuilder {
     private let baseComponents: URLComponents = {
         var components = URLComponents()
         components.scheme = "https"
-        components.host = ""
-        components.path = "/api/"
+        components.host = "api.dailymotion.com"
+        components.path = "/"
         return components
     }()
 

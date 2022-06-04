@@ -26,6 +26,19 @@
 		F0477E97284B7F7C00E30C30 /* ErrorReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E96284B7F7C00E30C30 /* ErrorReporter.swift */; };
 		F0477E9B284B7FC900E30C30 /* DisplayableErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E9A284B7FC900E30C30 /* DisplayableErrorViewModel.swift */; };
 		F0477E9F284B803900E30C30 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E9E284B803900E30C30 /* Page.swift */; };
+		F0477EA1284B81C800E30C30 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EA0284B81C800E30C30 /* Video.swift */; };
+		F0477EA4284B862200E30C30 /* VideosListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EA3284B862200E30C30 /* VideosListViewController.swift */; };
+		F0477EA6284B864B00E30C30 /* VideosListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EA5284B864B00E30C30 /* VideosListPresenter.swift */; };
+		F0477EA8284B866B00E30C30 /* VideoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EA7284B866B00E30C30 /* VideoListInteractor.swift */; };
+		F0477EAA284B8A5400E30C30 /* VideosListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EA9284B8A5400E30C30 /* VideosListViewModel.swift */; };
+		F0477EAF284B8AD500E30C30 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EAE284B8AD500E30C30 /* EmptyView.swift */; };
+		F0477EB1284B8B2100E30C30 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EB0284B8B2100E30C30 /* VideoCell.swift */; };
+		F0477EB3284B8DC700E30C30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EB2284B8DC700E30C30 /* Constants.swift */; };
+		F0477EB6284B94EB00E30C30 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EB5284B94EB00E30C30 /* UIViewController+Extensions.swift */; };
+		F0477EB9284B9F8B00E30C30 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EB8284B9F8B00E30C30 /* ImageCache.swift */; };
+		F0477EBF284BAE9700E30C30 /* CompatibilityFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EBE284BAE9700E30C30 /* CompatibilityFormatter.swift */; };
+		F0477EC1284BAECF00E30C30 /* RelativeDateTimeFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EC0284BAECF00E30C30 /* RelativeDateTimeFormatter+Extensions.swift */; };
+		F0477EC3284BAEFF00E30C30 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477EC2284BAEFF00E30C30 /* DateFormatter+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +82,19 @@
 		F0477E96284B7F7C00E30C30 /* ErrorReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorReporter.swift; sourceTree = "<group>"; };
 		F0477E9A284B7FC900E30C30 /* DisplayableErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableErrorViewModel.swift; sourceTree = "<group>"; };
 		F0477E9E284B803900E30C30 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		F0477EA0284B81C800E30C30 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		F0477EA3284B862200E30C30 /* VideosListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListViewController.swift; sourceTree = "<group>"; };
+		F0477EA5284B864B00E30C30 /* VideosListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListPresenter.swift; sourceTree = "<group>"; };
+		F0477EA7284B866B00E30C30 /* VideoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListInteractor.swift; sourceTree = "<group>"; };
+		F0477EA9284B8A5400E30C30 /* VideosListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListViewModel.swift; sourceTree = "<group>"; };
+		F0477EAE284B8AD500E30C30 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		F0477EB0284B8B2100E30C30 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		F0477EB2284B8DC700E30C30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F0477EB5284B94EB00E30C30 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F0477EB8284B9F8B00E30C30 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		F0477EBE284BAE9700E30C30 /* CompatibilityFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityFormatter.swift; sourceTree = "<group>"; };
+		F0477EC0284BAECF00E30C30 /* RelativeDateTimeFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RelativeDateTimeFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		F0477EC2284BAEFF00E30C30 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +144,16 @@
 		F0477E4A284B79C800E30C30 /* dailymotion-tech-test */ = {
 			isa = PBXGroup;
 			children = (
-				F0477E98284B7FAF00E30C30 /* View Models */,
-				F0477E8B284B7ECA00E30C30 /* Error Handling */,
 				F0477E82284B7DE500E30C30 /* Data Provider */,
+				F0477E8B284B7ECA00E30C30 /* Error Handling */,
+				F0477EB4284B94D200E30C30 /* Extensions */,
 				F0477E7B284B7D3500E30C30 /* Networking */,
+				F0477EBD284BAE8100E30C30 /* Protocols */,
+				F0477EA2284B85F400E30C30 /* Videos List */,
+				F0477E98284B7FAF00E30C30 /* View Models */,
+				F0477EAD284B8AC800E30C30 /* Views */,
 				F0477E4B284B79C800E30C30 /* AppDelegate.swift */,
+				F0477EB2284B8DC700E30C30 /* Constants.swift */,
 				F0477E54284B79C900E30C30 /* Assets.xcassets */,
 				F0477E56284B79C900E30C30 /* LaunchScreen.storyboard */,
 				F0477E59284B79C900E30C30 /* Info.plist */,
@@ -184,6 +215,7 @@
 				F0477E83284B7DFA00E30C30 /* DataProvider.swift */,
 				F0477E85284B7E2400E30C30 /* DataProviderError.swift */,
 				F0477E87284B7E5000E30C30 /* DefaultDataProvider.swift */,
+				F0477EB8284B9F8B00E30C30 /* ImageCache.swift */,
 				F0477E89284B7E7800E30C30 /* RequestBuilder.swift */,
 			);
 			path = Provider;
@@ -193,8 +225,47 @@
 			isa = PBXGroup;
 			children = (
 				F0477E9E284B803900E30C30 /* Page.swift */,
+				F0477EA0284B81C800E30C30 /* Video.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F0477EA2284B85F400E30C30 /* Videos List */ = {
+			isa = PBXGroup;
+			children = (
+				F0477EA3284B862200E30C30 /* VideosListViewController.swift */,
+				F0477EA5284B864B00E30C30 /* VideosListPresenter.swift */,
+				F0477EA7284B866B00E30C30 /* VideoListInteractor.swift */,
+				F0477EA9284B8A5400E30C30 /* VideosListViewModel.swift */,
+			);
+			path = "Videos List";
+			sourceTree = "<group>";
+		};
+		F0477EAD284B8AC800E30C30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0477EAE284B8AD500E30C30 /* EmptyView.swift */,
+				F0477EB0284B8B2100E30C30 /* VideoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0477EB4284B94D200E30C30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0477EC2284BAEFF00E30C30 /* DateFormatter+Extensions.swift */,
+				F0477EC0284BAECF00E30C30 /* RelativeDateTimeFormatter+Extensions.swift */,
+				F0477EB5284B94EB00E30C30 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F0477EBD284BAE8100E30C30 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F0477EBE284BAE9700E30C30 /* CompatibilityFormatter.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,20 +398,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0477EB3284B8DC700E30C30 /* Constants.swift in Sources */,
+				F0477EBF284BAE9700E30C30 /* CompatibilityFormatter.swift in Sources */,
 				F0477E88284B7E5000E30C30 /* DefaultDataProvider.swift in Sources */,
+				F0477EA6284B864B00E30C30 /* VideosListPresenter.swift in Sources */,
 				F0477E8F284B7F1F00E30C30 /* DefaultErrorReporter.swift in Sources */,
 				F0477E9F284B803900E30C30 /* Page.swift in Sources */,
+				F0477EAF284B8AD500E30C30 /* EmptyView.swift in Sources */,
 				F0477E95284B7F6B00E30C30 /* ErrorManager.swift in Sources */,
 				F0477E81284B7DA400E30C30 /* URLSession+NetworkProvider.swift in Sources */,
 				F0477E9B284B7FC900E30C30 /* DisplayableErrorViewModel.swift in Sources */,
+				F0477EA4284B862200E30C30 /* VideosListViewController.swift in Sources */,
 				F0477E4C284B79C800E30C30 /* AppDelegate.swift in Sources */,
 				F0477E91284B7F3800E30C30 /* ErrorHandler.swift in Sources */,
+				F0477EB6284B94EB00E30C30 /* UIViewController+Extensions.swift in Sources */,
+				F0477EA8284B866B00E30C30 /* VideoListInteractor.swift in Sources */,
+				F0477EB9284B9F8B00E30C30 /* ImageCache.swift in Sources */,
 				F0477E84284B7DFA00E30C30 /* DataProvider.swift in Sources */,
 				F0477E7D284B7D4900E30C30 /* NetworkError.swift in Sources */,
 				F0477E8D284B7EF400E30C30 /* DefaultErrorManager.swift in Sources */,
+				F0477EA1284B81C800E30C30 /* Video.swift in Sources */,
+				F0477EC1284BAECF00E30C30 /* RelativeDateTimeFormatter+Extensions.swift in Sources */,
+				F0477EC3284BAEFF00E30C30 /* DateFormatter+Extensions.swift in Sources */,
+				F0477EB1284B8B2100E30C30 /* VideoCell.swift in Sources */,
 				F0477E7F284B7D7E00E30C30 /* NetworkProvider.swift in Sources */,
 				F0477E93284B7F5400E30C30 /* ErrorLevel.swift in Sources */,
 				F0477E97284B7F7C00E30C30 /* ErrorReporter.swift in Sources */,
+				F0477EAA284B8A5400E30C30 /* VideosListViewModel.swift in Sources */,
 				F0477E86284B7E2400E30C30 /* DataProviderError.swift in Sources */,
 				F0477E8A284B7E7800E30C30 /* RequestBuilder.swift in Sources */,
 			);

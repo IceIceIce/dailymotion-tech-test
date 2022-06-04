@@ -18,7 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
 
-        window.rootViewController = UIViewController()
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .custom { decoder in
+            let container = try decoder.singleValueContainer()
+            return try Date(timeIntervalSince1970: container.decode(TimeInterval.self))
+        }
+        let dataProvider = DefaultDataProvider(decoder: decoder)
+        let interactor = DefaultVideosListInteracor(dataProvider: dataProvider)
+        let errorManager = DefaultErrorManager()
+        let presenter = DefaultVideosListPresenter(interactor: interactor, errorManager: errorManager)
+        let videosListController = VideosListViewController(presenter: presenter)
+
+        window.rootViewController = UINavigationController(rootViewController: videosListController)
         window.makeKeyAndVisible()
 
         return true

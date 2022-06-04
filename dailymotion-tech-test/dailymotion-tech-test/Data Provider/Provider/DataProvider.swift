@@ -9,6 +9,6 @@ import Foundation
 
 protocol DataProvider: AnyObject {
 
-    func fetchVideos(resultsPerPage: Int, completion: @escaping (Result<Page, DataProviderError>) -> Void)
+    func fetchVideos(videosPerPage: Int, completion: @escaping (Result<Page, DataProviderError>) -> Void)
     func fetchData(url: URL, completion: @escaping (Result<Data, DataProviderError>) -> Void)
 }
