@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0477E4C284B79C800E30C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E4B284B79C800E30C30 /* AppDelegate.swift */; };
+		F0477E55284B79C900E30C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0477E54284B79C900E30C30 /* Assets.xcassets */; };
+		F0477E58284B79C900E30C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0477E56284B79C900E30C30 /* LaunchScreen.storyboard */; };
+		F0477E63284B79C900E30C30 /* dailymotion_tech_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0477E62284B79C900E30C30 /* dailymotion_tech_testTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0477E5F284B79C900E30C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0477E40284B79C800E30C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0477E47284B79C800E30C30;
+			remoteInfo = "dailymotion-tech-test";
+		};
+		F0477E69284B79C900E30C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0477E40284B79C800E30C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0477E47284B79C800E30C30;
+			remoteInfo = "dailymotion-tech-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0477E48284B79C800E30C30 /* dailymotion-tech-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dailymotion-tech-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0477E4B284B79C800E30C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0477E54284B79C900E30C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0477E57284B79C900E30C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0477E59284B79C900E30C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0477E5E284B79C900E30C30 /* dailymotion-tech-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dailymotion-tech-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0477E62284B79C900E30C30 /* dailymotion_tech_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailymotion_tech_testTests.swift; sourceTree = "<group>"; };
+		F0477E68284B79C900E30C30 /* dailymotion-tech-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dailymotion-tech-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0477E45284B79C800E30C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0477E5B284B79C900E30C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0477E65284B79C900E30C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0477E3F284B79C800E30C30 = {
+			isa = PBXGroup;
+			children = (
+				F0477E4A284B79C800E30C30 /* dailymotion-tech-test */,
+				F0477E61284B79C900E30C30 /* dailymotion-tech-testTests */,
+				F0477E49284B79C800E30C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0477E49284B79C800E30C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E48284B79C800E30C30 /* dailymotion-tech-test.app */,
+				F0477E5E284B79C900E30C30 /* dailymotion-tech-testTests.xctest */,
+				F0477E68284B79C900E30C30 /* dailymotion-tech-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0477E4A284B79C800E30C30 /* dailymotion-tech-test */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E4B284B79C800E30C30 /* AppDelegate.swift */,
+				F0477E54284B79C900E30C30 /* Assets.xcassets */,
+				F0477E56284B79C900E30C30 /* LaunchScreen.storyboard */,
+				F0477E59284B79C900E30C30 /* Info.plist */,
+			);
+			path = "dailymotion-tech-test";
+			sourceTree = "<group>";
+		};
+		F0477E61284B79C900E30C30 /* dailymotion-tech-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0477E62284B79C900E30C30 /* dailymotion_tech_testTests.swift */,
+			);
+			path = "dailymotion-tech-testTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0477E47284B79C800E30C30 /* dailymotion-tech-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0477E72284B79C900E30C30 /* Build configuration list for PBXNativeTarget "dailymotion-tech-test" */;
+			buildPhases = (
+				F0477E44284B79C800E30C30 /* Sources */,
+				F0477E45284B79C800E30C30 /* Frameworks */,
+				F0477E46284B79C800E30C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dailymotion-tech-test";
+			productName = "dailymotion-tech-test";
+			productReference = F0477E48284B79C800E30C30 /* dailymotion-tech-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0477E5D284B79C900E30C30 /* dailymotion-tech-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0477E75284B79C900E30C30 /* Build configuration list for PBXNativeTarget "dailymotion-tech-testTests" */;
+			buildPhases = (
+				F0477E5A284B79C900E30C30 /* Sources */,
+				F0477E5B284B79C900E30C30 /* Frameworks */,
+				F0477E5C284B79C900E30C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0477E60284B79C900E30C30 /* PBXTargetDependency */,
+			);
+			name = "dailymotion-tech-testTests";
+			productName = "dailymotion-tech-testTests";
+			productReference = F0477E5E284B79C900E30C30 /* dailymotion-tech-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0477E67284B79C900E30C30 /* dailymotion-tech-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0477E78284B79C900E30C30 /* Build configuration list for PBXNativeTarget "dailymotion-tech-testUITests" */;
+			buildPhases = (
+				F0477E64284B79C900E30C30 /* Sources */,
+				F0477E65284B79C900E30C30 /* Frameworks */,
+				F0477E66284B79C900E30C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0477E6A284B79C900E30C30 /* PBXTargetDependency */,
+			);
+			name = "dailymotion-tech-testUITests";
+			productName = "dailymotion-tech-testUITests";
+			productReference = F0477E68284B79C900E30C30 /* dailymotion-tech-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0477E40284B79C800E30C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F0477E47284B79C800E30C30 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F0477E5D284B79C900E30C30 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = F0477E47284B79C800E30C30;
+					};
+					F0477E67284B79C900E30C30 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = F0477E47284B79C800E30C30;
+					};
+				};
+			};
+			buildConfigurationList = F0477E43284B79C800E30C30 /* Build configuration list for PBXProject "dailymotion-tech-test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0477E3F284B79C800E30C30;
+			productRefGroup = F0477E49284B79C800E30C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0477E47284B79C800E30C30 /* dailymotion-tech-test */,
+				F0477E5D284B79C900E30C30 /* dailymotion-tech-testTests */,
+				F0477E67284B79C900E30C30 /* dailymotion-tech-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0477E46284B79C800E30C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0477E58284B79C900E30C30 /* LaunchScreen.storyboard in Resources */,
+				F0477E55284B79C900E30C30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0477E5C284B79C900E30C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0477E66284B79C900E30C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0477E44284B79C800E30C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0477E4C284B79C800E30C30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0477E5A284B79C900E30C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0477E63284B79C900E30C30 /* dailymotion_tech_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0477E64284B79C900E30C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0477E60284B79C900E30C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0477E47284B79C800E30C30 /* dailymotion-tech-test */;
+			targetProxy = F0477E5F284B79C900E30C30 /* PBXContainerItemProxy */;
+		};
+		F0477E6A284B79C900E30C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0477E47284B79C800E30C30 /* dailymotion-tech-test */;
+			targetProxy = F0477E69284B79C900E30C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0477E56284B79C900E30C30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0477E57284B79C900E30C30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0477E70284B79C900E30C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0477E71284B79C900E30C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0477E73284B79C900E30C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TDH6KT7UD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dailymotion-tech-test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion-tech-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0477E74284B79C900E30C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TDH6KT7UD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dailymotion-tech-test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion-tech-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0477E76284B79C900E30C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TDH6KT7UD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion-tech-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dailymotion-tech-test.app/dailymotion-tech-test";
+			};
+			name = Debug;
+		};
+		F0477E77284B79C900E30C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TDH6KT7UD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion-tech-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dailymotion-tech-test.app/dailymotion-tech-test";
+			};
+			name = Release;
+		};
+		F0477E79284B79C900E30C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TDH6KT7UD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion-tech-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dailymotion-tech-test";
+			};
+			name = Debug;
+		};
+		F0477E7A284B79C900E30C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TDH6KT7UD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion-tech-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dailymotion-tech-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0477E43284B79C800E30C30 /* Build configuration list for PBXProject "dailymotion-tech-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0477E70284B79C900E30C30 /* Debug */,
+				F0477E71284B79C900E30C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0477E72284B79C900E30C30 /* Build configuration list for PBXNativeTarget "dailymotion-tech-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0477E73284B79C900E30C30 /* Debug */,
+				F0477E74284B79C900E30C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0477E75284B79C900E30C30 /* Build configuration list for PBXNativeTarget "dailymotion-tech-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0477E76284B79C900E30C30 /* Debug */,
+				F0477E77284B79C900E30C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0477E78284B79C900E30C30 /* Build configuration list for PBXNativeTarget "dailymotion-tech-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0477E79284B79C900E30C30 /* Debug */,
+				F0477E7A284B79C900E30C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0477E40284B79C800E30C30 /* Project object */;
+}
