@@ -23,6 +23,10 @@ final class DefaultErrorManager: ErrorManager {
             return handleDataProviderError(dataProviderError)
         }
 
+        if let videosListInteractorError = error as? VideosListInteractorError {
+            return handleVideosListInteractorError(videosListInteractorError)
+        }
+
         return .low
     }
 
@@ -75,5 +79,13 @@ extension DefaultErrorManager {
 
     private func handleRequestBuilderError(_ builderError: RequestBuilder.BuilderError) -> ErrorLevel {
         return .medium(DisplayableErrorViewModel(title: "Error", message: "Something went wrong, please try again later"))
+    }
+
+    private func handleVideosListInteractorError(_ error: VideosListInteractorError) -> ErrorLevel {
+
+        switch error {
+        case .couldNotGetImageFromData:
+            return .low
+        }
     }
 }
