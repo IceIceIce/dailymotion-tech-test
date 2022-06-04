@@ -118,6 +118,7 @@ extension VideoCell {
         let creationTime: String
         let thumbnailUrl: URL
         let imageFetcher: (@escaping ImageSetter) -> Void
+        let url: URL
     }
 
     func configure(with viewModel: VideoCell.ViewModel) {

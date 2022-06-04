@@ -14,6 +14,7 @@ protocol VideosListPresenter: AnyObject {
     var viewModel: VideosListLoadedViewModel? { get }
 
     func start()
+    func openVideo(index: Int)
 }
 
 final class DefaultVideosListPresenter: VideosListPresenter {
@@ -31,6 +32,7 @@ final class DefaultVideosListPresenter: VideosListPresenter {
     private let errorManager: ErrorManager
     private let imageCache: ImageCaching
     private let creationDateFormatter: CompatibilityFormatter
+    private weak var router: AppRouter?
 
     private var state: State = .idle {
         didSet {
@@ -48,7 +50,8 @@ final class DefaultVideosListPresenter: VideosListPresenter {
 
     init(interactor: VideosListInteractor,
          errorManager: ErrorManager,
-         imageCache: ImageCaching = ImageCache.shared) {
+         imageCache: ImageCaching = ImageCache.shared,
+         router: AppRouter) {
 
         self.interactor = interactor
         self.errorManager = errorManager
@@ -60,6 +63,7 @@ final class DefaultVideosListPresenter: VideosListPresenter {
             dateFormatter.setLocalizedDateFormatFromTemplate("dd MMMM")
             creationDateFormatter = dateFormatter
         }
+        self.router = router
     }
 
     func start() {
@@ -75,6 +79,12 @@ final class DefaultVideosListPresenter: VideosListPresenter {
                 self?.handleError(error)
             }
         }
+    }
+
+    func openVideo(index: Int) {
+
+        guard case let .loaded(rows) = viewModel, rows.count > index else { return }
+        router?.openVideo(title: rows[index].title, url: rows[index].url)
     }
 }
 
@@ -104,7 +114,8 @@ extension DefaultVideosListPresenter {
                                        description: video.description,
                                        creationTime: creationDateFormatter.format(date: video.creationTime),
                                        thumbnailUrl: video.thumbnailUrl,
-                                       imageFetcher: imageFetcher)
+                                       imageFetcher: imageFetcher,
+                                       url: video.url)
         }
 
         viewModel = .loaded(rows: tableViewModel)
@@ -115,7 +126,7 @@ extension DefaultVideosListPresenter {
 
         let sortedError = errorManager.sortError(error)
         guard case let .medium(displayableErrorViewModel) = sortedError else {
-
+            router?.handleError(sortedError)
             return
         }
         let emptyViewModel = EmptyView.ViewModel(text: displayableErrorViewModel.message,

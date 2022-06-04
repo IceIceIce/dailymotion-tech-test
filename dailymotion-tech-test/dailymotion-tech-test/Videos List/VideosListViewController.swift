@@ -51,10 +51,6 @@ final class VideosListViewController: UIViewController {
         setupTable()
         setupActivity()
         setupAutoLayout()
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
 
         presenter.view = self
         presenter.start()
@@ -134,8 +130,8 @@ extension VideosListViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
+        presenter.openVideo(index: indexPath.row)
         table.deselectRow(at: indexPath, animated: true)
-
     }
 }
 
