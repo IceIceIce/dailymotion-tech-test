@@ -9,6 +9,6 @@ import Foundation
 
 enum VideosListLoadedViewModel {
 
-    case loaded(rows: [VideoCell.ViewModel])
+    case loaded([VideoCell.ViewModel])
     case empty(EmptyView.ViewModel)
 }

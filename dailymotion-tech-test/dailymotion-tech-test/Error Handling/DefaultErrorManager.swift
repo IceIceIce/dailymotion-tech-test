@@ -55,7 +55,7 @@ extension DefaultErrorManager {
         switch networkError {
         case .networking(let error):
             return .medium(DisplayableErrorViewModel(title: "Error", message: error.localizedDescription))
-        case .noData, .parsing, .noImage:
+        case .noData, .parsing:
             return .medium(DisplayableErrorViewModel(title: "Error", message: "Something went wrong, please try again later"))
         case .server(let statusCode):
             return handleServerError(statusCode: statusCode, request: request)

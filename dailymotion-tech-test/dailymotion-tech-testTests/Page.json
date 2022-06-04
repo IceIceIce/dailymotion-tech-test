@@ -1,0 +1,25 @@
+{
+  "page": 1,
+  "limit": 20,
+  "explicit": false,
+  "total": 1000,
+  "has_more": true,
+  "list": [
+    {
+      "description": "",
+      "thumbnail_120_url": "https://s2.dmcdn.net/v/T-9cR1YcqjIewDQN6/x120",
+      "url": "https://www.dailymotion.com/video/x8bdfa3",
+      "created_time": 1654344530,
+      "title": "PlayerFeature_FUNINO",
+      "id": "x8bdfa3"
+    },
+    {
+      "description": "Das Video zeigt die ersten 10 Minuten aus Lego Star Wars 3: The Clone Wars und damit die Prolog-Mission des Actionspiels. Die Szenen stammen aus der Xbox-360-Version.",
+      "thumbnail_120_url": "https://s1.dmcdn.net/v/T-AN61YcqgK6rj0LE/x120",
+      "url": "https://www.dailymotion.com/video/x8bdhom",
+      "created_time": 1654344277,
+      "title": "Lego Star Wars 3: The Clone Wars - Prolog-Mission - Die ersten 10-Minuten",
+      "id" : "x8bdhom"
+    }
+  ]
+}

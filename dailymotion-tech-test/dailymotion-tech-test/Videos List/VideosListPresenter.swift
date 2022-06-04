@@ -56,13 +56,7 @@ final class DefaultVideosListPresenter: VideosListPresenter {
         self.interactor = interactor
         self.errorManager = errorManager
         self.imageCache = imageCache
-        if #available(iOS 13.0, *) {
-            creationDateFormatter = RelativeDateTimeFormatter()
-        } else {
-            let dateFormatter = DateFormatter()
-            dateFormatter.setLocalizedDateFormatFromTemplate("dd MMMM")
-            creationDateFormatter = dateFormatter
-        }
+        self.creationDateFormatter = DefaultCompatibilityFormatter()
         self.router = router
     }
 
@@ -118,7 +112,7 @@ extension DefaultVideosListPresenter {
                                        url: video.url)
         }
 
-        viewModel = .loaded(rows: tableViewModel)
+        viewModel = .loaded(tableViewModel)
         state = .loaded
     }
 

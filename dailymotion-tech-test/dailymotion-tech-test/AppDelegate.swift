@@ -17,13 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let window = UIWindow(frame: UIScreen.main.bounds)
 
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .custom { decoder in
-            let container = try decoder.singleValueContainer()
-            return try Date(timeIntervalSince1970: container.decode(TimeInterval.self))
-        }
+        
         let errorManager = DefaultErrorManager()
-        let dataProvider = DefaultDataProvider(decoder: decoder)
+        let dataProvider = DefaultDataProvider(decoder: JSONHandling.decoder)
         
         appRouter = DefaultAppRouter(dataProvider: dataProvider, errorManager: errorManager, window: window)
         appRouter?.start()

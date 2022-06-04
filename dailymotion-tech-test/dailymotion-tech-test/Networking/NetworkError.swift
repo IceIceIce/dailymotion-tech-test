@@ -11,7 +11,6 @@ enum NetworkError: Error {
 
     case networking(Error)
     case noData(URLRequest)
-    case noImage(Data)
     case parsing(Error)
     case server(statusCode: Int)
 }
