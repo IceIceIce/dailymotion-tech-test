@@ -19,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         
         let errorManager = DefaultErrorManager()
-        let dataProvider = DefaultDataProvider(decoder: JSONHandling.decoder)
+        let configuration = URLSessionConfiguration.default
+        configuration.requestCachePolicy = .reloadIgnoringLocalCacheData
+        let session = URLSession(configuration: configuration)
+        let dataProvider = DefaultDataProvider(decoder: JSONHandling.decoder, networkProvider: session)
         
         appRouter = DefaultAppRouter(dataProvider: dataProvider, errorManager: errorManager, window: window)
         appRouter?.start()

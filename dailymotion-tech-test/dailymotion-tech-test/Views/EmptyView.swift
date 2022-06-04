@@ -34,12 +34,15 @@ final class EmptyView: UIView {
         vStack.axis = .vertical
         vStack.alignment = .center
         vStack.translatesAutoresizingMaskIntoConstraints = false
+        vStack.spacing = Constants.inset
         addSubview(vStack)
     }
 
     private func setupTextLabel() {
 
         textLabel.translatesAutoresizingMaskIntoConstraints = false
+        textLabel.numberOfLines = 0
+        textLabel.textAlignment = .center
         vStack.addArrangedSubview(textLabel)
     }
 
@@ -53,8 +56,8 @@ final class EmptyView: UIView {
 
         let constraints = [
             vStack.topAnchor.constraint(greaterThanOrEqualTo: safeAreaLayoutGuide.topAnchor),
-            vStack.leadingAnchor.constraint(greaterThanOrEqualTo: leadingAnchor),
-            vStack.trailingAnchor.constraint(lessThanOrEqualTo: trailingAnchor),
+            vStack.leadingAnchor.constraint(greaterThanOrEqualTo: leadingAnchor, constant: Constants.inset),
+            vStack.trailingAnchor.constraint(lessThanOrEqualTo: trailingAnchor, constant: -Constants.inset),
             vStack.bottomAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.bottomAnchor),
             vStack.centerYAnchor.constraint(equalTo: centerYAnchor),
             vStack.centerXAnchor.constraint(equalTo: centerXAnchor)
